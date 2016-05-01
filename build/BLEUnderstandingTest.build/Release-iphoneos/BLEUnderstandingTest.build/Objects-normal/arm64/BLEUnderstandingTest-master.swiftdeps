@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "f54dd1ded6f60654c4f94071a9565379"
+build_time: [515387059, 446370000]
+inputs:
+  "/Users/Steve_Sanchez/Documents/Apargo/Apps/TestApps/BLEUnderstandingTest/BLEUnderstandingTest/BLEManager.swift": [515387010, 0]
+  "/Users/Steve_Sanchez/Documents/Apargo/Apps/TestApps/BLEUnderstandingTest/BLEUnderstandingTest/ViewController.swift": [514353023, 0]
+  "/Users/Steve_Sanchez/Documents/Apargo/Apps/TestApps/BLEUnderstandingTest/BLEUnderstandingTest/AppDelegate.swift": [514249039, 0]

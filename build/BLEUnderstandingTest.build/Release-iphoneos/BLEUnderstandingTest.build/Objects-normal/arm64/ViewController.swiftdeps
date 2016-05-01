@@ -1,0 +1,531 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C20BLEUnderstandingTest14ViewController"
+provides-member:
+- ["C20BLEUnderstandingTest14ViewController", ""]
+provides-dynamic-lookup:
+- "centralManager"
+- "viewDidLoad"
+- "beginScanButton"
+- "didReceiveMemoryWarning"
+- "beginScan"
+- "observeValueForKeyPath"
+- "reportLabel"
+depends-top-level:
+- "UIButton"
+- !private "StringLiteralType"
+- "BLEManager"
+- !private "NSKeyValueObservingOptions"
+- "UIViewController"
+- "Void"
+- "UnsafeMutablePointer"
+- "String"
+- "ViewController"
+- "UILabel"
+- "AnyObject"
+- !private "Array"
+depends-member:
+- !private ["Ps9AnyObject", "BLEManager"]
+- !private ["Ps9AnyObject", "NSKeyValueObservingOptions"]
+- !private ["Ps9AnyObject", "addObserver"]
+- ["Ps9AnyObject", "beginScan"]
+- ["Ps9AnyObject", "beginScanButton"]
+- ["Ps9AnyObject", "centralManager"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "observeValueForKeyPath"]
+- !private ["Ps9AnyObject", "removeObserver"]
+- ["Ps9AnyObject", "reportLabel"]
+- !private ["Ps9AnyObject", "sharedManager"]
+- !private ["Ps9AnyObject", "startScanAndConnect"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "New"]
+- !private ["Ps23ArrayLiteralConvertible", "Old"]
+- !private ["Ps23ArrayLiteralConvertible", "RawValue"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "init"]
+- !private ["C20BLEUnderstandingTest10BLEManager", "addObserver"]
+- !private ["C20BLEUnderstandingTest10BLEManager", "removeObserver"]
+- !private ["C20BLEUnderstandingTest10BLEManager", "sharedManager"]
+- !private ["C20BLEUnderstandingTest10BLEManager", "startScanAndConnect"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["PSo24CBCentralManagerDelegate", "addObserver"]
+- !private ["PSo24CBCentralManagerDelegate", "removeObserver"]
+- !private ["PSo24CBCentralManagerDelegate", "sharedManager"]
+- !private ["PSo24CBCentralManagerDelegate", "startScanAndConnect"]
+- !private ["Ps11CVarArgType", "BLEManager"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "NSKeyValueObservingOptions"]
+- !private ["Ps11CVarArgType", "addObserver"]
+- ["Ps11CVarArgType", "beginScan"]
+- ["Ps11CVarArgType", "beginScanButton"]
+- ["Ps11CVarArgType", "centralManager"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "observeValueForKeyPath"]
+- !private ["Ps11CVarArgType", "removeObserver"]
+- ["Ps11CVarArgType", "reportLabel"]
+- !private ["Ps11CVarArgType", "sharedManager"]
+- !private ["Ps11CVarArgType", "startScanAndConnect"]
+- !private ["Ps11CVarArgType", "text"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Element"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps28CustomDebugStringConvertible", "BLEManager"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "NSKeyValueObservingOptions"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserver"]
+- ["Ps28CustomDebugStringConvertible", "beginScan"]
+- ["Ps28CustomDebugStringConvertible", "beginScanButton"]
+- ["Ps28CustomDebugStringConvertible", "centralManager"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "observeValueForKeyPath"]
+- !private ["Ps28CustomDebugStringConvertible", "removeObserver"]
+- ["Ps28CustomDebugStringConvertible", "reportLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedManager"]
+- !private ["Ps28CustomDebugStringConvertible", "startScanAndConnect"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "BLEManager"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "NSKeyValueObservingOptions"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "addObserver"]
+- ["Ps23CustomStringConvertible", "beginScan"]
+- ["Ps23CustomStringConvertible", "beginScanButton"]
+- ["Ps23CustomStringConvertible", "centralManager"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "observeValueForKeyPath"]
+- !private ["Ps23CustomStringConvertible", "removeObserver"]
+- ["Ps23CustomStringConvertible", "reportLabel"]
+- !private ["Ps23CustomStringConvertible", "sharedManager"]
+- !private ["Ps23CustomStringConvertible", "startScanAndConnect"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "BLEManager"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "NSKeyValueObservingOptions"]
+- !private ["Ps9Equatable", "New"]
+- !private ["Ps9Equatable", "Old"]
+- !private ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "addObserver"]
+- ["Ps9Equatable", "beginScan"]
+- ["Ps9Equatable", "beginScanButton"]
+- ["Ps9Equatable", "centralManager"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "observeValueForKeyPath"]
+- !private ["Ps9Equatable", "removeObserver"]
+- ["Ps9Equatable", "reportLabel"]
+- !private ["Ps9Equatable", "sharedManager"]
+- !private ["Ps9Equatable", "startScanAndConnect"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "BLEManager"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "NSKeyValueObservingOptions"]
+- !private ["Ps8Hashable", "addObserver"]
+- ["Ps8Hashable", "beginScan"]
+- ["Ps8Hashable", "beginScanButton"]
+- ["Ps8Hashable", "centralManager"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "observeValueForKeyPath"]
+- !private ["Ps8Hashable", "removeObserver"]
+- ["Ps8Hashable", "reportLabel"]
+- !private ["Ps8Hashable", "sharedManager"]
+- !private ["Ps8Hashable", "startScanAndConnect"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps21MutableCollectionType", "Element"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableSliceable", "Element"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["PSo8NSCoding", "BLEManager"]
+- !private ["PSo8NSCoding", "NSKeyValueObservingOptions"]
+- ["PSo8NSCoding", "beginScan"]
+- ["PSo8NSCoding", "beginScanButton"]
+- ["PSo8NSCoding", "centralManager"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "observeValueForKeyPath"]
+- ["PSo8NSCoding", "reportLabel"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "BLEManager"]
+- !private ["PSo26NSExtensionRequestHandling", "NSKeyValueObservingOptions"]
+- ["PSo26NSExtensionRequestHandling", "beginScan"]
+- ["PSo26NSExtensionRequestHandling", "beginScanButton"]
+- ["PSo26NSExtensionRequestHandling", "centralManager"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "observeValueForKeyPath"]
+- ["PSo26NSExtensionRequestHandling", "reportLabel"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["VSC26NSKeyValueObservingOptions", "Element"]
+- !private ["VSC26NSKeyValueObservingOptions", "New"]
+- !private ["VSC26NSKeyValueObservingOptions", "Old"]
+- !private ["VSC26NSKeyValueObservingOptions", "RawValue"]
+- !private ["VSC26NSKeyValueObservingOptions", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "BLEManager"]
+- !private ["CSo8NSObject", "NSKeyValueObservingOptions"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UnsafeMutablePointer"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addObserver"]
+- ["CSo8NSObject", "beginScan"]
+- ["CSo8NSObject", "beginScanButton"]
+- ["CSo8NSObject", "centralManager"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "observeValueForKeyPath"]
+- !private ["CSo8NSObject", "removeObserver"]
+- ["CSo8NSObject", "reportLabel"]
+- !private ["CSo8NSObject", "sharedManager"]
+- !private ["CSo8NSObject", "startScanAndConnect"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "BLEManager"]
+- !private ["PSo16NSObjectProtocol", "NSKeyValueObservingOptions"]
+- !private ["PSo16NSObjectProtocol", "addObserver"]
+- ["PSo16NSObjectProtocol", "beginScan"]
+- ["PSo16NSObjectProtocol", "beginScanButton"]
+- ["PSo16NSObjectProtocol", "centralManager"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "observeValueForKeyPath"]
+- !private ["PSo16NSObjectProtocol", "removeObserver"]
+- ["PSo16NSObjectProtocol", "reportLabel"]
+- !private ["PSo16NSObjectProtocol", "sharedManager"]
+- !private ["PSo16NSObjectProtocol", "startScanAndConnect"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps13OptionSetType", "Element"]
+- !private ["Ps13OptionSetType", "New"]
+- !private ["Ps13OptionSetType", "Old"]
+- !private ["Ps13OptionSetType", "RawValue"]
+- !private ["Ps13OptionSetType", "init"]
+- !private ["Sq", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["Ps16RawRepresentable", "New"]
+- !private ["Ps16RawRepresentable", "Old"]
+- !private ["Ps16RawRepresentable", "RawValue"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps14SetAlgebraType", "Element"]
+- !private ["Ps14SetAlgebraType", "New"]
+- !private ["Ps14SetAlgebraType", "Old"]
+- !private ["Ps14SetAlgebraType", "RawValue"]
+- !private ["Ps14SetAlgebraType", "init"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "BLEManager"]
+- !private ["PSo21UIAppearanceContainer", "NSKeyValueObservingOptions"]
+- ["PSo21UIAppearanceContainer", "beginScan"]
+- ["PSo21UIAppearanceContainer", "beginScanButton"]
+- ["PSo21UIAppearanceContainer", "centralManager"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "observeValueForKeyPath"]
+- ["PSo21UIAppearanceContainer", "reportLabel"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "BLEManager"]
+- !private ["PSo18UIContentContainer", "NSKeyValueObservingOptions"]
+- ["PSo18UIContentContainer", "beginScan"]
+- ["PSo18UIContentContainer", "beginScanButton"]
+- ["PSo18UIContentContainer", "centralManager"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "observeValueForKeyPath"]
+- ["PSo18UIContentContainer", "reportLabel"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "BLEManager"]
+- !private ["PSo18UIFocusEnvironment", "NSKeyValueObservingOptions"]
+- ["PSo18UIFocusEnvironment", "beginScan"]
+- ["PSo18UIFocusEnvironment", "beginScanButton"]
+- ["PSo18UIFocusEnvironment", "centralManager"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "observeValueForKeyPath"]
+- ["PSo18UIFocusEnvironment", "reportLabel"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "BLEManager"]
+- !private ["CSo11UIResponder", "NSKeyValueObservingOptions"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UnsafeMutablePointer"]
+- ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "beginScan"]
+- ["CSo11UIResponder", "beginScanButton"]
+- ["CSo11UIResponder", "centralManager"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "observeValueForKeyPath"]
+- ["CSo11UIResponder", "reportLabel"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "BLEManager"]
+- !private ["PSo16UIStateRestoring", "NSKeyValueObservingOptions"]
+- ["PSo16UIStateRestoring", "beginScan"]
+- ["PSo16UIStateRestoring", "beginScanButton"]
+- ["PSo16UIStateRestoring", "centralManager"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "observeValueForKeyPath"]
+- ["PSo16UIStateRestoring", "reportLabel"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "BLEManager"]
+- !private ["PSo18UITraitEnvironment", "NSKeyValueObservingOptions"]
+- ["PSo18UITraitEnvironment", "beginScan"]
+- ["PSo18UITraitEnvironment", "beginScanButton"]
+- ["PSo18UITraitEnvironment", "centralManager"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "observeValueForKeyPath"]
+- ["PSo18UITraitEnvironment", "reportLabel"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "BLEManager"]
+- !private ["CSo16UIViewController", "NSKeyValueObservingOptions"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "UnsafeMutablePointer"]
+- ["CSo16UIViewController", "Void"]
+- ["CSo16UIViewController", "beginScan"]
+- ["CSo16UIViewController", "beginScanButton"]
+- ["CSo16UIViewController", "centralManager"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "observeValueForKeyPath"]
+- ["CSo16UIViewController", "reportLabel"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- ["C20BLEUnderstandingTest14ViewController", "AnyObject"]
+- ["C20BLEUnderstandingTest14ViewController", "BLEManager"]
+- !private ["C20BLEUnderstandingTest14ViewController", "NSKeyValueObservingOptions"]
+- ["C20BLEUnderstandingTest14ViewController", "String"]
+- ["C20BLEUnderstandingTest14ViewController", "UIButton"]
+- ["C20BLEUnderstandingTest14ViewController", "UILabel"]
+- ["C20BLEUnderstandingTest14ViewController", "UnsafeMutablePointer"]
+- ["C20BLEUnderstandingTest14ViewController", "Void"]
+- ["C20BLEUnderstandingTest14ViewController", "beginScan"]
+- ["C20BLEUnderstandingTest14ViewController", "beginScanButton"]
+- ["C20BLEUnderstandingTest14ViewController", "centralManager"]
+- ["C20BLEUnderstandingTest14ViewController", "deinit"]
+- ["C20BLEUnderstandingTest14ViewController", "didReceiveMemoryWarning"]
+- ["C20BLEUnderstandingTest14ViewController", "init"]
+- ["C20BLEUnderstandingTest14ViewController", "observeValueForKeyPath"]
+- ["C20BLEUnderstandingTest14ViewController", "reportLabel"]
+- ["C20BLEUnderstandingTest14ViewController", "viewDidLoad"]
+- !private ["Ps10_ArrayType", "Element"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Element"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "text"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "C20BLEUnderstandingTest10BLEManager"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "PSo24CBCentralManagerDelegate"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- !private "VSC26NSKeyValueObservingOptions"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps13OptionSetType"
+- !private "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- !private "Ps12SequenceType"
+- !private "Ps14SetAlgebraType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- "C20BLEUnderstandingTest14ViewController"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreBluetooth.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+interface-hash: "c6a2ff3e23bad11f6dbde2a7d69c1cd0"

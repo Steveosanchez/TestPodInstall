@@ -15,6 +15,8 @@
 		D222BD6F1CC44C4F009E79C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D222BD6D1CC44C4F009E79C0 /* LaunchScreen.storyboard */; };
 		D222BD7A1CC44C4F009E79C0 /* BLEUnderstandingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D222BD791CC44C4F009E79C0 /* BLEUnderstandingTestTests.swift */; };
 		D222BD851CC44C4F009E79C0 /* BLEUnderstandingTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D222BD841CC44C4F009E79C0 /* BLEUnderstandingTestUITests.swift */; };
+		D222BD931CC44CE3009E79C0 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D222BD921CC44CE3009E79C0 /* CoreBluetooth.framework */; };
+		D222BD951CC44DC8009E79C0 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D222BD941CC44DC8009E79C0 /* BLEManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D222BD801CC44C4F009E79C0 /* BLEUnderstandingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEUnderstandingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D222BD841CC44C4F009E79C0 /* BLEUnderstandingTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEUnderstandingTestUITests.swift; sourceTree = "<group>"; };
 		D222BD861CC44C4F009E79C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D222BD921CC44CE3009E79C0 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		D222BD941CC44DC8009E79C0 /* BLEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D222BD931CC44CE3009E79C0 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +84,7 @@
 		D222BD551CC44C4E009E79C0 = {
 			isa = PBXGroup;
 			children = (
+				D222BD921CC44CE3009E79C0 /* CoreBluetooth.framework */,
 				D222BD601CC44C4F009E79C0 /* BLEUnderstandingTest */,
 				D222BD781CC44C4F009E79C0 /* BLEUnderstandingTestTests */,
 				D222BD831CC44C4F009E79C0 /* BLEUnderstandingTestUITests */,
@@ -106,6 +112,7 @@
 				D222BD6D1CC44C4F009E79C0 /* LaunchScreen.storyboard */,
 				D222BD701CC44C4F009E79C0 /* Info.plist */,
 				D222BD681CC44C4F009E79C0 /* BLEUnderstandingTest.xcdatamodeld */,
+				D222BD941CC44DC8009E79C0 /* BLEManager.swift */,
 			);
 			path = BLEUnderstandingTest;
 			sourceTree = "<group>";
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D222BD6A1CC44C4F009E79C0 /* BLEUnderstandingTest.xcdatamodeld in Sources */,
+				D222BD951CC44DC8009E79C0 /* BLEManager.swift in Sources */,
 				D222BD641CC44C4F009E79C0 /* ViewController.swift in Sources */,
 				D222BD621CC44C4F009E79C0 /* AppDelegate.swift in Sources */,
 			);
